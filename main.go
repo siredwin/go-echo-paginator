@@ -27,7 +27,7 @@ func NewSlice(start, count, step int) []int {
 }
 
 func ListAllUsers(c echo.Context) (error){
-	// Lets use to Forbes top 7.
+	// Lets use the Forbes top 7.
 	usernames := []string{"Larry Ellison","Carlos Slim Helu", "Mark Zuckerberg", "Amancio Ortega ", "Jeff Bezos", " Warren Buffett ", "Bill Gates"}
 
 	// sets paginator with the current offset (from the url query param)
